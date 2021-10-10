@@ -1,0 +1,129 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.heading{
+  width: 100%;
+  margin: 0px auto;
+  text-align: center;
+  background: url("../Img/coffee-beans-with-props-making-coffee.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 80vh;
+}
+.img_header{
+  width: 50%;
+}
+.mobile{
+  max-height: 20rem;
+  padding: 5px 0;
+}
+.input_box{
+  width: 50%;
+  padding-top: 13rem;
+  padding-right: 7px;
+  margin: 0px auto;
+}
+section {
+  margin: 0 35px;
+  text-align: center;
+}
+.card {
+  margin: 7px auto;
+  width: 100%;
+  text-align: center;
+}
+.card-body{
+    text-align: justify;
+    background:   #f7f9f9 ;
+    color: #fff;
+}
+.btnn{
+  text-align: right;
+  color: #000;
+  float: right;
+}
+.btnn:hover{
+  text-align: right;
+  color:  #2471a3  ;
+  float: right;
+}
+
+.mdet{
+  display: flex;
+  text-align: center;
+}
+input_box
+.first{
+  border-right: 2px solid black;
+  padding-right:4px
+}
+.Secound{
+  padding-left:4px
+}
+.back-btn{
+  text-align: left;
+}
+.back_btnn{
+  font-size: 38px;
+  border: 2px solid  #F44336  ;
+  border-radius: 50px;
+  padding: 10px;
+  color: #fff;
+}
+.back_btnn:hover{
+  font-size: 38px;
+  border: 2px solid #F44336  ;
+  border-radius: 50px;
+  padding: 10px;
+  color:   rgb(243, 227, 8)  ;
+}
+.More-btn{
+  color: #F44336;
+  font-weight: 600;
+}
+.More-btn:hover{
+  color: #048520;
+  font-weight: 600;
+  border-bottom: 1px solid #048520;
+}
+@media screen and (max-width: 980px) {
+    section {
+        margin: 0 15px;
+        text-align: center;
+      }
+  .card {
+    margin: 7px auto;
+    width: 100%;
+    text-align: center;
+  }
+  .mdet{
+    display: flex;
+    text-align: justify;
+  }
+  .first{
+    border-right: 2px solid black;
+    padding-right:4px
+  }
+  .Secound{
+    padding-left:4px
+  }
+  .heading{
+    width: 100%;
+    
+    margin: 10px auto;
+    text-align: center;
+  }
+  .img_header{
+    display: none;
+    width: 0%;
+  }
+  .input_box{
+    width: 80% !important;
+    padding-top: 13rem;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+}

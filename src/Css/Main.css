@@ -1,0 +1,110 @@
+.main {
+  width: 100%;
+  height: 90vh;
+  margin: 0 auto;
+  background: url("../Img/2253310.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.Main {
+  background: #edf0f7;
+}
+.body-section {
+  margin: 10px 35px;
+  text-align: center;
+}
+.Crousal_img {
+  width: 90%;
+  text-align: center;
+  max-height: 33rem;
+  min-height: 33rem;
+  background-size: cover;
+  margin: 8px auto;
+  border-radius: 7px 7px 7px 7px;
+  box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px,
+    rgba(6, 24, 44, 0.65) 0px 4px 6px -1px,
+    rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+}
+.about{
+    display:flex;
+    justify-content: space-evenly;
+    margin: 0 auto;
+    width: 100%;
+}
+.img-about{
+    width: 50%;
+    text-align: center;
+}
+.para-about{
+    width: 50%;
+    text-align: center;
+}
+.about-img{
+    width: 100%;
+}
+.para-about h5{
+    padding-top:10rem;
+    text-align: justify;
+}
+.Search-btn{
+  margin-top: 30px;
+  margin-bottom:20px;
+  text-align: center;
+
+}
+.search{
+  background: #F44336;
+  color: #fff;
+  padding: 9px 25px;
+  font-weight:500;
+  border-radius: 50px 50px 50px 50px;
+}
+.search:hover{
+  background: #03a87f;
+  color: #fff;
+  padding: 9px 25px;
+  font-weight:500;
+  border-radius: 50px 50px 50px 50px;
+}
+
+@media screen and (max-width: 980px) {
+  .body-section {
+    margin: 5px 10px;
+    text-align: center;
+  }
+  .main {
+    width: 100%;
+    height: 50vh;
+    margin: 0 auto;
+    background: url("../Img/2253310.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .Crousal_img {
+    width: 100%;
+    text-align: center;
+    max-height: 22rem;
+    min-height: 22rem;
+    background-size: cover;
+  }
+  .about{
+    display:grid;
+    margin: 0 auto;
+    width: 100%;
+}
+.img-about{
+    width: 100%;
+    text-align: center;
+}
+.para-about{
+    width: 100%;
+    text-align: center;
+}
+.about-img{
+    width: 100%;
+}
+.para-about h5{
+    padding-top:10px;
+    text-align: center;
+}
+}

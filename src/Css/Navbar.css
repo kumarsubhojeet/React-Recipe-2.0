@@ -1,0 +1,31 @@
+.Navbar_bg{
+    background: #F44336;
+    border-radius: 15px 15px;
+}
+.navbar_section{
+    margin: 0 auto;
+    width: 50%;
+    padding-top: 24rem;
+}
+.navbar-brand{
+    color: #fff !important;
+    font-weight: 700;
+}
+.nav-link{
+    color: #fff !important;
+    font-weight: 600;
+    transition:2s all
+}
+.nav-link:hover{
+    color: #fff !important;
+    font-weight: 600;
+    border-bottom: 2px solid #fff !important;
+}
+
+@media screen and (max-width: 980px) {
+    .navbar_section{
+        margin: 0 auto;
+        width: 90%;
+        padding-top: 6rem;
+    }
+}
