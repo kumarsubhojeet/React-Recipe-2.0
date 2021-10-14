@@ -1,13 +1,9 @@
 import React, { useState , useEffect } from "react";
 import axios from "axios";
-import { Link , useHistory ,useParams } from "react-router-dom";
+import { Link } from "react-router-dom";
 import { BackTop } from "antd";
-import mobile from "../Svg/mobile.svg";
 
-export default function Home() {
-
-  let {name} = useParams();
-
+export default function Discover() {
 
   const style = {
     height: 40,
@@ -28,7 +24,7 @@ export default function Home() {
   const btnclick = async () => {
     try {
       const res = await axios.get(
-        `https://api.edamam.com/api/recipes/v2?type=public&q=${name}&app_id=${apiid}&app_key=${appkey}`
+        `https://api.edamam.com/api/recipes/v2?type=public&q=indian&app_id=${apiid}&app_key=${appkey}&random=true`
       );
       recipeUpdate(res.data.hits);
     } catch (error) {
@@ -38,13 +34,13 @@ export default function Home() {
 
   useEffect(() => {
     btnclick();
-  }, [name])
+  }, [])
 
 
   return (
     <div className="home_main">
     
-    <h2 style={{textAlign:'center'}}>{name}</h2>
+
       <section>
         <div className="row">
           {recipes.map((rec) => (

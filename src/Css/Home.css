@@ -3,15 +3,7 @@
   padding: 0;
   box-sizing: border-box;
 }
-.heading{
-  width: 100%;
-  margin: 0px auto;
-  text-align: center;
-  background: url("../Img/coffee-beans-with-props-making-coffee.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 80vh;
-}
+
 .img_header{
   width: 50%;
 }

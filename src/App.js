@@ -10,8 +10,9 @@ import Navbar from './Components/Navbar'
 const App = () => {
   return (
     <>
+    <Navbar />
     <Switch>
-      <Route exact path='/Home' component={Home}/>
+      <Route exact path='/Home/:name' children={<Home />}></Route> 
       <Route exact path='/' component={Main}/>
       <Route path='/Recipe/:name' children={<Recipe />}></Route>
     </Switch>

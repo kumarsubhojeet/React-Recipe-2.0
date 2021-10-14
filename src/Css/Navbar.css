@@ -1,23 +1,23 @@
 .Navbar_bg{
-    background: #F44336;
-    border-radius: 15px 15px;
+    background:transparent;
 }
 .navbar_section{
     margin: 0 auto;
-    width: 50%;
-    padding-top: 24rem;
+    width: 95%;
+    padding-top: 0;
+    color: #000;
 }
 .navbar-brand{
-    color: #fff !important;
+    color: #000;
     font-weight: 700;
 }
 .nav-link{
-    color: #fff !important;
+    color: #000;
     font-weight: 600;
     transition:2s all
 }
 .nav-link:hover{
-    color: #fff !important;
+    color: #000;
     font-weight: 600;
     border-bottom: 2px solid #fff !important;
 }
@@ -26,6 +26,6 @@
     .navbar_section{
         margin: 0 auto;
         width: 90%;
-        padding-top: 6rem;
+        padding-top: 0rem;
     }
 }

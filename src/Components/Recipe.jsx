@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { useHistory, useParams } from "react-router-dom";
+import { useParams } from "react-router-dom";
 import axios from "axios";
 import { BackTop } from "antd";
 
@@ -15,7 +15,6 @@ export default function Recipe() {
     fontSize: 14,
   };
 
-  let history = useHistory();
 
   const { name } = useParams();
   console.log(name);
@@ -40,15 +39,10 @@ export default function Recipe() {
     Api();
   }, [name]);
 
-  const back = () => {
-    history.push("/");
-  };
+
 
   return (
-    <div className="Recipe_main">
-      <div className="back-btn" onClick={back}>
-        <i class="far fa-hand-point-left back_btn"></i>
-      </div>
+   
 
       <section>
         <div className="recipies">
@@ -117,6 +111,5 @@ export default function Recipe() {
           </div>
         </BackTop>
       </section>
-    </div>
   );
 }
