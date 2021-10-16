@@ -50,7 +50,8 @@ export default function Main() {
           <div className="catrgories_main">
             <Maincategory />
           </div>
-          <h2>Popular tags</h2>
+          
+          <h2 className="Popular_tags">Popular tags</h2>
           <div className="tags_main">
            
           <Link to={`/Home/Noodles`} style={{textDecoration:'none'}}><p>Noodles</p></Link>
